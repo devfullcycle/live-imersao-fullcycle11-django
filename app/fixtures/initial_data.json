@@ -1,0 +1,274 @@
+[
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$390000$BgZD3bQtmZUvyCJtRoVytM$+c70/CD6HlkqSziOZNbesNfzaPsADqBHdjWfvVc3aP0=",
+            "last_login": "2022-12-02T23:52:38Z",
+            "is_superuser": true,
+            "username": "admin@user.com",
+            "first_name": "Admin",
+            "last_name": "Admin",
+            "email": "admin@user.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2022-12-02T23:52:17Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "app.player",
+        "pk": 2,
+        "fields": {
+            "name": "Messi",
+            "initial_price": 10.0
+        }
+    },
+    {
+        "model": "app.player",
+        "pk": 3,
+        "fields": {
+            "name": "Neymar",
+            "initial_price": 10.0
+        }
+    },
+    {
+        "model": "app.player",
+        "pk": 4,
+        "fields": {
+            "name": "Cristiano Ronaldo",
+            "initial_price": 10.0
+        }
+    },
+    {
+        "model": "app.player",
+        "pk": 5,
+        "fields": {
+            "name": "De brunye",
+            "initial_price": 10.0
+        }
+    },
+    {
+        "model": "app.player",
+        "pk": 6,
+        "fields": {
+            "name": "Vinicius Junior",
+            "initial_price": 10.0
+        }
+    },
+    {
+        "model": "app.player",
+        "pk": 7,
+        "fields": {
+            "name": "xpto1",
+            "initial_price": 10.0
+        }
+    },
+    {
+        "model": "app.player",
+        "pk": 8,
+        "fields": {
+            "name": "xpto2",
+            "initial_price": 1.0
+        }
+    },
+    {
+        "model": "app.player",
+        "pk": 9,
+        "fields": {
+            "name": "xpto3",
+            "initial_price": 10.0
+        }
+    },
+    {
+        "model": "app.player",
+        "pk": 10,
+        "fields": {
+            "name": "xpto4",
+            "initial_price": 10.0
+        }
+    },
+    {
+        "model": "app.player",
+        "pk": 11,
+        "fields": {
+            "name": "xpto5",
+            "initial_price": 10.0
+        }
+    },
+    {
+        "model": "app.player",
+        "pk": 12,
+        "fields": {
+            "name": "xpto6",
+            "initial_price": 10.0
+        }
+    },
+    {
+        "model": "app.player",
+        "pk": 13,
+        "fields": {
+            "name": "xpto7",
+            "initial_price": 10.0
+        }
+    },
+    {
+        "model": "app.player",
+        "pk": 14,
+        "fields": {
+            "name": "xpto8",
+            "initial_price": 10.0
+        }
+    },
+    {
+        "model": "app.player",
+        "pk": 15,
+        "fields": {
+            "name": "xpto9",
+            "initial_price": 10.0
+        }
+    },
+    {
+        "model": "app.player",
+        "pk": 16,
+        "fields": {
+            "name": "xpto10",
+            "initial_price": 10.0
+        }
+    },
+    {
+        "model": "app.player",
+        "pk": 17,
+        "fields": {
+            "name": "xpto11",
+            "initial_price": 10.0
+        }
+    },
+    {
+        "model": "app.player",
+        "pk": 18,
+        "fields": {
+            "name": "xpto12",
+            "initial_price": 10.0
+        }
+    },
+    {
+        "model": "app.player",
+        "pk": 19,
+        "fields": {
+            "name": "xpto13",
+            "initial_price": 10.0
+        }
+    },
+    {
+        "model": "app.player",
+        "pk": 20,
+        "fields": {
+            "name": "xpto14",
+            "initial_price": 10.0
+        }
+    },
+    {
+        "model": "app.player",
+        "pk": 21,
+        "fields": {
+            "name": "xpto15",
+            "initial_price": 10.0
+        }
+    },
+    {
+        "model": "app.player",
+        "pk": 22,
+        "fields": {
+            "name": "xpto16",
+            "initial_price": 10.0
+        }
+    },
+    {
+        "model": "app.player",
+        "pk": 23,
+        "fields": {
+            "name": "xpto17",
+            "initial_price": 10.0
+        }
+    },
+    {
+        "model": "app.player",
+        "pk": 24,
+        "fields": {
+            "name": "xpto18",
+            "initial_price": 10.0
+        }
+    },
+    {
+        "model": "app.player",
+        "pk": 25,
+        "fields": {
+            "name": "xpto19",
+            "initial_price": 10.0
+        }
+    },
+    {
+        "model": "app.player",
+        "pk": 26,
+        "fields": {
+            "name": "xpto20",
+            "initial_price": 10.0
+        }
+    },
+    {
+        "model": "app.team",
+        "pk": 1,
+        "fields": {
+            "name": "Brasil"
+        }
+    },
+    {
+        "model": "app.team",
+        "pk": 2,
+        "fields": {
+            "name": "Alemanha"
+        }
+    },
+    {
+        "model": "app.team",
+        "pk": 3,
+        "fields": {
+            "name": "Argentina"
+        }
+    },
+    {
+        "model": "app.myteam",
+        "pk": 1,
+        "fields": {
+            "players": [
+                2,
+                3
+            ]
+        }
+    },
+    {
+        "model": "app.myteam",
+        "pk": 2,
+        "fields": {
+            "players": [
+                7,
+                8,
+                9,
+                10
+            ]
+        }
+    },
+    {
+        "model": "app.match",
+        "pk": 1,
+        "fields": {
+            "match_date": "2022-12-03T00:32:02Z",
+            "team_a": 1,
+            "team_a_goal": 0,
+            "team_b": 3,
+            "team_b_goal": 0
+        }
+    }
+]
